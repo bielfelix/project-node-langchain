@@ -12,6 +12,7 @@ import { identifyIntent } from "./nodes/identifyIntentNode.ts";
 import { chatResponseNode } from "./nodes/chatResponseNode.ts";
 import { lowerCaseNode } from "./nodes/lowerCaseNode.ts";
 import { upperCaseNode } from "./nodes/upperCaseNode.ts";
+import { fallbackNode } from "./nodes/fallbackNode.ts";
 
 // A "mochila" que viaja pelo grafo. Os .default() dizem o que usar
 // quando o campo nao vem preenchido — sem eles o teste quebra.
@@ -37,6 +38,7 @@ export function buildGraph() {
         .addNode("lowercase", lowerCaseNode)
         .addNode("uppercase", upperCaseNode)
         .addNode("chatResponse", chatResponseNode)
+        .addNode("fallback", fallbackNode)
 
         // 2. Por onde a mensagem entra
         .addEdge(START, "identifyIntent")
@@ -61,12 +63,17 @@ export function buildGraph() {
             {
                 uppercase: "uppercase",
                 lowercase: "lowercase",
-                fallback: "chatResponse",
+                fallback: "fallback",
             }
         )
 
+        .addEdge("uppercase", "chatResponse")
+        .addEdge("lowercase", "chatResponse")
+        .addEdge("fallback", "chatResponse")
+
         // 4. Saidas. Nao sao tres END diferentes: sao tres setas
         //    apontando para a mesma linha de chegada.
+        .addEdge("fallback", END)
         .addEdge("uppercase", END)
         .addEdge("lowercase", END)
         .addEdge("chatResponse", END);

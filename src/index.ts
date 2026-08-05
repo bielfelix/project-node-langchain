@@ -30,3 +30,5 @@ console.log(`Server listening on port ${port}`)
 //   console.log('Response status: ', response.statusCode)
 //   console.log('Response body: ', response.body)
 // })
+
+// curl localhost:3000/chat --data '{"question": "uppercase this"}' -H "Content-type: application/json"
