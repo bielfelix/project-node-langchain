@@ -1,0 +1,13 @@
+import { AIMessage } from "langchain"
+import { type GraphState } from "../graph.ts"
+
+export function lowerCaseNode(state: GraphState): GraphState {
+    const responseText = state.output.toLowerCase()
+    const aiMessage = new AIMessage(responseText)
+
+
+    return {
+        ...state,
+        output: responseText,
+    }
+}
