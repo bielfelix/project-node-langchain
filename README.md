@@ -4,12 +4,12 @@ A technical reference implementation for LangChain and LangGraph with Node.js an
 
 ## Attribution
 
-This repository is based on source material from the Software Engineering with Applied AI program published by UNIPDS and Erick Wendel.
+This repository is based on external source material published by UNIPDS and Erick Wendel.
 
 Upstream material:
 https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada
 
-The base implementation comes from that material. I keep this repository public as technical implementation, not as an original implementation of the underlying course example.
+The base implementation comes from that material. I keep this repository public as technical implementation, not as an original implementation of the underlying source implementation.
 
 ## What the project demonstrates
 
@@ -68,4 +68,4 @@ It should not be treated as a flagship original project. The value here is the c
 
 ## License and distribution
 
-The upstream course repository is published under CC BY-NC-ND 4.0. Its LICENSE.md states that modified or adapted versions may not be distributed under the NoDerivatives condition. This repository is therefore not presented as a permissively licensed open-source derivative. See [NOTICE.md](NOTICE.md) for the provenance and licensing note.
+The upstream source repository is published under CC BY-NC-ND 4.0. Its LICENSE.md states that modified or adapted versions may not be distributed under the NoDerivatives condition. This repository is therefore not presented as a permissively licensed open-source derivative. See [NOTICE.md](NOTICE.md) for the provenance and licensing note.
