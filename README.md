@@ -1,0 +1,66 @@
+# LangChain Intro Study
+
+An introductory study project for LangChain and LangGraph with Node.js and TypeScript.
+
+## Attribution
+
+This repository is based on course material from the Software Engineering with Applied AI program published by UNIPDS and Erick Wendel.
+
+Upstream material:
+https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada
+
+The base exercise comes from that material. I keep this repository public as hands-on study, not as an original implementation of the underlying course example.
+
+## What the project demonstrates
+
+- LangChain basics
+- LangGraph execution flow
+- Fastify integration
+- Environment-based configuration
+- LangSmith tracing configuration
+- Automated tests
+- TypeScript executed directly by modern Node.js
+
+## Security note
+
+Local credentials must be provided through a non-versioned `.env` file.
+
+Use:
+
+```bash
+cp .env.example .env
+```
+
+Never commit real LangSmith or provider credentials.
+
+## Run
+
+Install dependencies:
+
+```bash
+npm ci
+```
+
+Create the local environment file:
+
+```bash
+cp .env.example .env
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Run tests:
+
+```bash
+npm test
+```
+
+## Portfolio status
+
+This repository represents structured study of LangChain and LangGraph fundamentals.
+
+It should not be treated as a flagship original project. The value here is the practical exploration of the framework and execution model.
