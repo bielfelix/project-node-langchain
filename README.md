@@ -9,7 +9,7 @@ This repository is based on source material from the Software Engineering with A
 Upstream material:
 https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada
 
-The base exercise comes from that material. I keep this repository public as technical implementation, not as an original implementation of the underlying course example.
+The base implementation comes from that material. I keep this repository public as technical implementation, not as an original implementation of the underlying course example.
 
 ## What the project demonstrates
 
