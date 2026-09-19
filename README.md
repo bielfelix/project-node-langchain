@@ -9,7 +9,7 @@ This repository is based on source material from the Software Engineering with A
 Upstream material:
 https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada
 
-The base exercise comes from that material. I keep this repository public as hands-on technical implementation, not as an original implementation of the underlying course example.
+The base exercise comes from that material. I keep this repository public as technical implementation, not as an original implementation of the underlying course example.
 
 ## What the project demonstrates
 
@@ -61,7 +61,7 @@ npm test
 
 ## Portfolio status
 
-This repository represents structured technical implementation of LangChain and LangGraph fundamentals.
+This repository represents technical implementation of LangChain and LangGraph fundamentals.
 
 It should not be treated as a flagship original project. The value here is the concrete implementation of the framework and execution model.
 
