@@ -64,3 +64,8 @@ npm test
 This repository represents structured study of LangChain and LangGraph fundamentals.
 
 It should not be treated as a flagship original project. The value here is the practical exploration of the framework and execution model.
+
+
+## License and distribution
+
+The upstream course repository is published under CC BY-NC-ND 4.0. Its LICENSE.md states that modified or adapted versions may not be distributed under the NoDerivatives condition. This repository is therefore not presented as a permissively licensed open-source derivative. See [NOTICE.md](NOTICE.md) for the provenance and licensing note.
