@@ -1,6 +1,6 @@
-# LangChain Intro Study
+# LangChain and LangGraph Reference Implementation
 
-An introductory technical implementation for LangChain and LangGraph with Node.js and TypeScript.
+A technical reference implementation for LangChain and LangGraph with Node.js and TypeScript.
 
 ## Attribution
 
@@ -63,7 +63,7 @@ npm test
 
 This repository represents structured technical implementation of LangChain and LangGraph fundamentals.
 
-It should not be treated as a flagship original project. The value here is the practical exploration of the framework and execution model.
+It should not be treated as a flagship original project. The value here is the concrete implementation of the framework and execution model.
 
 
 ## License and distribution
